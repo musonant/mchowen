@@ -234,8 +234,9 @@ blockquote {
     height: 100%;
     left: 0;
     z-index: -1;
-    opacity: .85;
+    opacity: .25;
     position: absolute;
+    background-color: #fff;
 }
 
 .main-title {
@@ -1658,7 +1659,7 @@ footer p {
     }
 
     .main {
-        background: url(../img/person-bg.jpg) no-repeat right;
+        background: url(../img/person-bg.jpg) no-repeat center;
         background-size: cover;
     }
 
@@ -1830,7 +1831,7 @@ footer p {
     }
 
     .main-title {
-        font-size: 17px;
+        font-size: 20px;
     }
 
 
