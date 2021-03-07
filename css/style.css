@@ -235,6 +235,7 @@ blockquote {
     left: 0;
     z-index: -1;
     opacity: .25;
+    opacity: 0;
     position: absolute;
     background-color: #fff;
 }
@@ -243,13 +244,15 @@ blockquote {
     font-size: 24px;
     line-height: 38px;
     color: #000;
-    font-weight: 400;
-    text-shadow: 0 0 1px #9e9e9e7a;
+    text-shadow: 0 0 1px rgb(190, 190, 190);
+    font-weight: 500;
 }
 
 .hello {
-    color: #0161ee;
+    text-shadow: 0 0 1px rgb(190, 190, 190);
+    color: #770000;
     line-height: 51px;
+    font-weight: 500;
 }
 
 .main-content {
@@ -913,6 +916,11 @@ header {
 
 .single_item {
     overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.insta-embed-container {
+    background-color: green;
     margin-bottom: 30px;
 }
 

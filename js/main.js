@@ -316,7 +316,8 @@ if ($(window).width() > 481) {
         var where =  window.pageYOffset || document.documentElement.scrollTop;
         pro.css({
             'transform': 'scale('+(100 - where/100)/100+')',
-             'opacity' : (1 - (where/20) / 19)
+            'opacity' : (1 - (where/20) / 19),
+            'filter': `blur(${where * 0.04}px)`
         }) 
     }
     promoEffect();
