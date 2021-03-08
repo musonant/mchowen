@@ -2,7 +2,11 @@ const portfolioContent = {
   graphics: {
     featuredImage: 'img/video-editing.png',
     title: 'Graphic Design',
-    description: 'I see, I saw! I see snake, agwọ! I run, mgbawa ọsọ! I take my knife, mma! I cut the head, isi snake emekwotua onwuo onwuo!',
+    description: `Every brand deserves to be well represented anywhere in the world, both digitally and otherwise. The brand identity is a key role in the first stage of marketing a good logo will always attract a second look.
+    <br /><br />
+    I create and develop existing brand identity with simple, classic, detailed and easy to identify logos, using unique brand features and modern design patterns and fonts to translate brand's idea into visualization. Therefore, produce premium quality branding for my clients.
+    
+    You can check out a few of them below`,
     next: {
       name: 'Video Editing',
       key: 'videoEditing'
@@ -85,7 +89,11 @@ const portfolioContent = {
   videoEditing: {
     featuredImage: '',
     title: 'Video Editing',
-    description: 'I see, I saw! I see snake, agwọ! I run, mgbawa ọsọ! I take my knife, mma! I cut the head, isi snake emekwotua onwuo onwuo!',
+    description: `The World is fast-pacing into digital space and it's no way limited to to still images. Videos production is hitting the rooftops with the new quality.
+    Every brand and even individuals wants to be well represented in this modern world they want to keep a vivid memory of their events, they want to showcase their businesses in a more relatable/empathic way.
+    <br /><br />
+    I am a creative Video Editor who understands human need for video representation, I edit professional videos, Ads, Studio shows, events (wedding, burial, birthdays ), Campaigns etc.
+    Using modern video element and transitions I have created multiple mind blowing and watch time retention videos and high replay values because of the use of high standard cuts and titles and music and sound effects`,
     next: {
       name: 'Graphic Design',
       key: 'graphics'
@@ -172,7 +180,7 @@ const generateMarkup = ({ title, description, images = [], next = {} }) => {
     </div>
     <!-- Portfolio Detail -->
     <div class="col-lg-8 offset-lg-2">
-      <p class="about-text text-center">${description}</p>
+      <p class="about-text text-center small">${description}</p>
       
       <!-- Portfolio List-->
       <div class="col-lg-6 offset-lg-3 top_90 bottom_120">
