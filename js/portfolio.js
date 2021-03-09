@@ -2,11 +2,11 @@ const portfolioContent = {
   graphics: {
     featuredImage: 'img/video-editing.png',
     title: 'Graphic Design',
-    description: `Every brand deserves to be well represented anywhere in the world, both digitally and otherwise. The brand identity is a key role in the first stage of marketing a good logo will always attract a second look.
+    description: `Every brand deserves to be well represented anywhere in the world, both digitally and otherwise. The brand identity is a key role in the first stage of marketing. A good logo will always attract a second look.
     <br /><br />
-    I create and develop existing brand identity with simple, classic, detailed and easy to identify logos, using unique brand features and modern design patterns and fonts to translate brand's idea into visualization. Therefore, produce premium quality branding for my clients.
+    I create and develop existing brand identity with simple, classic, detailed and easy to identify logos, using unique brand features and modern design patterns and fonts to translate a brand's ideas into visualization. Therefore, produce premium quality branding for my clients.
     
-    You can check out a few of them below`,
+    I have highlighted a few below:`,
     next: {
       name: 'Video Editing',
       key: 'videoEditing'
@@ -89,11 +89,14 @@ const portfolioContent = {
   videoEditing: {
     featuredImage: '',
     title: 'Video Editing',
-    description: `The World is fast-pacing into digital space and it's no way limited to to still images. Videos production is hitting the rooftops with the new quality.
-    Every brand and even individuals wants to be well represented in this modern world they want to keep a vivid memory of their events, they want to showcase their businesses in a more relatable/empathic way.
+    description: `The World is fast-pacing into digital space and it is in no way limited to still images. Video production is hitting the rooftops with new and better quality.
+    Every brand and even individual wants to be well represented in this modern world. They want to keep a vivid memory of their events; They want to showcase their businesses in more relatable ways.
     <br /><br />
-    I am a creative Video Editor who understands human need for video representation, I edit professional videos, Ads, Studio shows, events (wedding, burial, birthdays ), Campaigns etc.
-    Using modern video element and transitions I have created multiple mind blowing and watch time retention videos and high replay values because of the use of high standard cuts and titles and music and sound effects`,
+    I am a creative Video Editor who understands human need for video representation, I edit professional videos, Ads, Studio shows, events (wedding, burial, birthdays), Campaigns etc.
+    Using modern video elements and transitions, I have created multiple mind blowing videos, helping my clients reach much higher watch-time, fan-base retention and higher replays.
+    <br /><br />
+    Check out a few projects below:
+    `,
     next: {
       name: 'Graphic Design',
       key: 'graphics'
